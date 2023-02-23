@@ -1,0 +1,23 @@
+import math
+
+a = input()
+
+# print(a)
+
+b = float(a)
+# print(b)
+
+# 向上取整
+c = math.ceil(b)
+# print(c)
+
+# 中间 x.5
+d = c - 0.5
+
+e = 0
+if b >= d:
+    e = c
+else:
+    e = c-1
+
+print(e)
