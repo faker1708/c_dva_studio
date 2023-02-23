@@ -18,3 +18,15 @@ gitee
 网盘(百度 微云 dropbox onedrive googledrive)
 
 
+git config --global http.proxy 127.0.0.1:7890
+git config --global https.proxy 127.0.0.1:7890
+
+git config --global http.proxy 127.0.0.1:49766
+git config --global https.proxy 127.0.0.1:49766
+
+成功了.nice
+
+
+就是改代理指向我自己的代理端口.
+
+
