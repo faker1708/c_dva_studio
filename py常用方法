@@ -1,0 +1,57 @@
+
+
+妈的,考试不让带自己的函数,
+只好来学一些常用的方法了.
+
+没办法呀,必须用人家的库,他考试不让你带库进来.无语.
+
+
+
+String_1 = String_1.upper() #全部取大写（题目不区分大小写）
+
+字符串方法
+
+取长度
+len()
+
+
+
+变成list
+
+string = 'wefwf'
+l = list(string)
+
+
+list变string
+
+l = ['w','j']
+string = ''.join(list)
+
+
+注意,字符串没法原地 on place 修改,要转换成list,改好后再转回来(弱智..)
+
+
+
+
+
+
+
+排序
+
+
+
+
+list方法
+
+循环
+
+for i,ele in enumerate(ll):
+    pass
+
+
+for i in range(num):
+    pass
+
+跳到下个循环
+continue
+

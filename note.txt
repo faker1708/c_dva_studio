@@ -30,3 +30,5 @@ git config --global https.proxy 127.0.0.1:49766
 就是改代理指向我自己的代理端口.
 
 
+
+

@@ -1,0 +1,72 @@
+
+String_1 = input() 
+
+
+可以用 input()来接收
+
+
+String_1 = input()  # 输入待查找的字符串
+check = input()  # 查找的字符
+
+
+
+String_1 = String_1.upper()  # 全部取大写（题目不区分大小写）
+list_1 = list(String_1)  # 每一个字符都做为列表的一项
+check = check.upper()  # 同样变为大写
+num = 0
+for word in list_1:  # 遍历并查找
+    if word == check:
+        num = num + 1
+print(num)
+
+
+
+
+byd牛客把打印函数 占了我怎么调试啊,真的烦人.
+
+
+
+对于不数量 的输入,需要使用try.
+要把模板手写一遍.考试时必须默写出来 ...弱智
+
+while True:
+    try:
+        n = input()
+        ta = []
+        for i in range(int(n)):
+            ta.append(int(input()))
+        uniq = set(ta)
+        for j in sorted(uniq):
+            print(j)
+    except (EOFError, KeyboardInterrupt):
+        break
+
+
+
+while 1:
+    try:
+        a = input()
+    except :
+        break
+    
+
+
+模板:{
+    # 把输入捕获到一个list中
+
+        ll= list()
+        while(1):
+            try:
+                a = input()
+                ll.append(a)
+            except:
+                break
+
+        print(ll)
+
+
+
+
+
+}
+    
