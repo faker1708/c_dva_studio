@@ -1,0 +1,20 @@
+
+之前不小心把os盘分区给删了,到现在也没能恢复.
+里面的代码都无法读取了.
+
+现在也正儿八经备份我们的代码库,这里是c库.
+
+
+计划
+语言
+c
+python
+
+
+备份点
+自己的硬盘
+github
+gitee
+网盘(百度 微云 dropbox onedrive googledrive)
+
+
